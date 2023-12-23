@@ -2,12 +2,12 @@
 import React, { createContext, useCallback, useEffect } from "react";
 import { io } from "socket.io-client";
 
-interface ISocketContext {
+export interface ISocketContext {
   // eslint-disable-next-line no-unused-vars
   sendMessage: (msg: string) => any;
 }
 
-const SocketContext = createContext<ISocketContext | null>(null);
+export const SocketContext = createContext<ISocketContext | null>(null);
 
 const SocketProvider = ({ children }: { children?: React.ReactNode }) => {
   const sendMessage: ISocketContext["sendMessage"] = useCallback((msg) => {
