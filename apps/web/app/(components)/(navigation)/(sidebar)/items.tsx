@@ -2,12 +2,13 @@
 import { Phone } from "lucide-react";
 import Image from "next/image";
 import React, { useState } from "react";
+import styles from "./(styles)/sidebar.module.css";
 
 const Items = () => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
   return (
     <div
-      className="flex items-center border p-2 rounded-full bg-white justify-between cursor-pointer select-none"
+      className={styles.items_container}
       onMouseEnter={() => {
         setIsHovered(true);
       }}

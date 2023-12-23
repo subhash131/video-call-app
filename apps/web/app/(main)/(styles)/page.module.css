@@ -9,14 +9,14 @@
   grid-column-end: 13;
 }
 .sidebar_container {
-  background-color: blue;
+  /* background-color: blue; */
   grid-row-start: 2;
   grid-row-end: 11;
   grid-column-start: 1;
   grid-column-end: 3;
 }
 .chat_container {
-  background-color: red;
+  /* background-color: red; */
   grid-row-start: 2;
   grid-row-end: 11;
   grid-column-start: 3;
