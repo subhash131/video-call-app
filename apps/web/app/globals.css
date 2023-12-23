@@ -9,6 +9,13 @@ body {
 }
 :root {
   --gray: rgb(156 163 175/0.8);
+  --dark_gray: rgb(55 65 81 /1);
+  --font_small: 0.875rem;
+  --font_xs: 0.75rem /* 12px */;
+  --curved_border_full: 99999px;
+  --white: #ffffff;
+  --small_gap: 0.5rem;
+  --light_green: #d7e4e0;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -37,6 +44,5 @@ img {
 }
 
 .text-gray {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
+  color: var(--dark_gray);
 }

@@ -1,11 +1,12 @@
 import React from "react";
 import Items from "./items";
+import styles from "./(styles)/sidebar.module.css";
 
 const Sidebar = () => {
   return (
-    <div className="w-full p-4 h-full border-r">
-      <label className="text-sm text-gray-700 ml-2">Chat</label>
-      <div className="mt-4 flex gap-2 flex-col">
+    <div className={styles.containers}>
+      <label className={styles.label}>Chat</label>
+      <div className={styles.items_wrapper}>
         <Items />
         <Items />
         <Items />
