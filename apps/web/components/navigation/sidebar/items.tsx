@@ -1,7 +1,7 @@
 "use client";
 import { Phone } from "lucide-react";
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import styles from "./(styles)/sidebar.module.css";
 
 const Items = () => {

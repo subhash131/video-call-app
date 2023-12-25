@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./(styles)/page.module.css";
-import Topbar from "../(components)/(navigation)/(topbar)";
-import Sidebar from "../(components)/(navigation)/(sidebar)";
+import Topbar from "../../components/navigation/topbar";
+import Sidebar from "../../components/navigation/sidebar";
+import Chat from "../../components/chat";
 
 const Page = () => {
   return (
@@ -12,7 +13,9 @@ const Page = () => {
       <div className={styles.sidebar_container}>
         <Sidebar />
       </div>
-      <div className={styles.chat_container}>{/* <Chat /> */}</div>
+      <div className={styles.chat_container}>
+        <Chat />
+      </div>
     </div>
   );
 };

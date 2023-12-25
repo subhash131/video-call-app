@@ -1,6 +1,6 @@
 import React from "react";
 import Items from "./items";
-import styles from "./(styles)/sidebar.module.css";
+import styles from "./styles/sidebar.module.css";
 
 const Sidebar = () => {
   return (

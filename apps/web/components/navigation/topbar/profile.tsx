@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import styles from "./(styles)/topbar.module.css";
+import styles from "./styles/topbar.module.css";
 
 const Profile = () => {
   return (
@@ -14,8 +14,8 @@ const Profile = () => {
         />
       </div>
       <div className={styles.label_container}>
-        <label className="text-sm">Subhash</label>
-        <label className="text-xs text-gray">Subhashnayak131@gmail.com</label>
+        <p className="text-sm">Subhash</p>
+        <p className="text-xs text-gray">Subhashnayak131@gmail.com</p>
       </div>
     </div>
   );

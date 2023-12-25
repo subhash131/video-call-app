@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  overflow: hidden;
+}
+.chat_window {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--gray);
+  border-radius: var(--curved_border_3xl);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  position: relative;
+}

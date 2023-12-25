@@ -35,7 +35,7 @@
 .name {
   pointer-events: none;
   color: var(--dark_gray);
-  font-size: var(--font_xs);
+  font-size: var(--font_small);
 }
 .icon_container {
   width: 2rem;
